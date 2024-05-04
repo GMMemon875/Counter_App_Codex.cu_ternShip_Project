@@ -9,10 +9,10 @@ function App() {
     <>
       <div className="container">
         <div className=" card">
-          <h1>React Counter app</h1>
-          <p>Current Count</p>
-          <p>{count}</p>
-          <button  onClick={() => setCount(count + 1)}>Increment</button>
+          <h1 className="Apptext">Counter app</h1>
+          {/* <p>Current Count</p> */}
+          <h1>{count}</h1>
+          <button onClick={() => setCount(count + 1)}>Increment</button>
           <button onClick={() => setCount(count - 1)}>Dicrement</button>
           <button className="btnReset" onClick={() => setCount(count == "")}>
             {" "}
